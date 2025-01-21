@@ -1,0 +1,46 @@
+<cataleg>
+    <llista_actors>
+        <actor id="id1">
+            <nom>Pablo</nom>
+            <edat>32</edat>
+        </actor>
+        <actor id="id2">
+            <nom>Jose Carlos</nom>
+            <edat>33</edat>
+        </actor>
+        <actor id="id3">
+            <nom>Isidro</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="P1">
+            <titol idioma="ESPANYOL">Burger King THE FILM</titol>
+            <director> Pablo Silverio Fernandez</director>
+            <any>2009</any>
+            <actors>
+                <actor_ref ref="id1"></actor_ref>
+            </actors>
+        </pelicula>
+        <pelicula id="P2">
+            <titol idioma="ESPANYOL">Originalidad</titol>
+            <director> Husam Ahmad Mhraez Thraliz </director>
+            <any>2008</any>
+            <actors>
+                <actor_ref ref="id2"></actor_ref>
+            </actors>
+        </pelicula>
+        <pelicula id="P3">
+            <titol idioma="ESPANYOL">Los viajes de Isidrosama</titol>
+            <director> Iisdro Martinez Espuelas</director>
+            <any>2007</any>
+            <actors>
+                <actor_ref ref="id3"></actor_ref>
+                <actor_ref ref="id2"></actor_ref>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="P2"></recomanacio>
+        <recomanacio ref="P3"></recomanacio>
+    </llista_recomanacions_pelicules>
+</cataleg>
